@@ -1,0 +1,295 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+}
+
+.container {
+    font-family: "Montserrat", sans-serif;
+    max-width: 100%;
+    background-color: dimgrey;
+    color: white;
+    display: flex;
+
+}
+
+.nav {
+    display: block;
+
+}
+
+nav {
+    height: 100%;
+    background-color: #262626;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 129.594px;
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+
+}
+
+.content {
+    width: 91%;
+    position: absolute;
+    left: 9%;
+    background-color: black;
+    padding: 0 11%;
+    padding-bottom: 10vh;
+}
+
+.foto {
+    width: 60%;
+    padding-bottom: 10%;
+
+}
+
+.home {
+    text-align: center;
+}
+
+h1 {
+    font-size: 4rem;
+    margin: 0;
+    padding: 5% 0 3% 0;
+}
+
+a {
+    text-decoration: none;
+    height: 15%;
+    max-width: 100%;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.nav nav a:hover {
+    background-color: black;
+}
+
+.profile {
+    width: 100%;
+    opacity: 0.60;
+}
+
+.progress {
+    background-color: white;
+    width: 100%;
+    height: 4vh;
+}
+
+.photoshop-progress {
+    width: 90%;
+    height: 4vh;
+    background-color: dimgrey;
+}
+
+.illustrator-progress {
+    width: 95%;
+    height: 4vh;
+    background-color: dimgrey;
+}
+
+.html-progress {
+    width: 75%;
+    height: 4vh;
+    background-color: dimgrey;
+}
+
+.javascript-progress {
+    width: 65%;
+    height: 4vh;
+    background-color: dimgrey;
+}
+
+p {
+    color: dimgrey;
+}
+
+.ondertitel {
+    color: #ffffff;
+}
+
+.fa-home, .fa-paint-brush, .fa-envelope, .fa-user, .fa-map-marker-alt, .fa-mobile {
+    font-size: 2em;
+    color: white;
+}
+
+.contact {
+    width: 40%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    height: 5.5vh;
+    margin: 1vh 0;
+}
+
+button {
+    height: 5.5vh;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1vh;
+    font-size: 1rem;
+}
+
+.fa-telegram-plane {
+    font-size: 1.5em;
+    color: #000000;
+    margin-right: 2vh;
+}
+
+input {
+    font-size: 1em;
+    padding-left: 1vh;
+}
+
+.lijst li {
+    color: dimgrey;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.lijst li .test {
+    width: 100%;
+    text-align: left;
+
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.cv {
+    display: flex;
+}
+
+.cv a {
+    color: black;
+}
+
+.fa-download {
+    margin-right: 2vh;
+    font-size: 1.5em;
+}
+
+.home-button {
+    background-color: black;
+}
+
+.lijst li .contact_icon {
+    width: 20%;
+    align-items: center;
+}
+
+.ontwerpen{
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    justify-content: space-between;
+}
+
+.links, .rechts{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    width: 50%;
+}
+.links{
+    margin-right: 2%;
+}
+.ontwerpen img{
+    max-width: 100%;
+    margin-bottom: 4%;
+}
+
+hr{
+    opacity: 60;
+    width: 18%;
+    margin: 0 0 3% 0;
+    /*margin-bottom: 3%;*/
+/*text-align: left;*/
+}
+
+h2{
+    margin-top: 20%;
+    font-size: 1.9rem;
+}
+
+.space{
+    padding-top: 1vh;
+}
+
+/*mobile responsive*/
+@media screen and (max-width: 620px) {
+    .content {
+        width: 100%;
+        left: 0;
+    }
+
+    .foto {
+        width: 90%;
+    }
+
+    .profile {
+        display: none;
+    }
+
+    nav {
+        position: fixed;
+        width: 100%;
+        height: 5vh;
+        z-index: 1;
+        opacity: 0.60;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        background-color: black;
+    }
+
+    .bar {
+        visibility: hidden;
+    }
+
+    h1 {
+        margin-top: 8vh;
+
+    }
+
+    a {
+        font-size: 0.8rem;
+    }
+
+    .ontwerpen{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .links, .rechts{
+        width: 100%;
+    }
+
+    button{
+        width: auto;
+    }
+    .lijst li .contact_icon{
+        margin-right: 10%;
+    }
+
+}

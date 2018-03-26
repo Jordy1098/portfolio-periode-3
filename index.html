@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio Jordy Klouwens</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="main.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="nav">
+        <nav>
+            <img class="profile" src="IMG_3032.jpg">
+            <a href="#home" class="home-button"><i class="fas fa-home bar"></i>Home</a>
+            <a href="#over-mij"><i class="fas fa-user bar"></i>Over mij</a>
+            <a href="#ontwerpen"><i class="fas fa-paint-brush bar"></i>Ontwerpen</a>
+            <a href="#contact"><i class="fas fa-envelope bar"></i>Contact</a>
+        </nav>
+    </div>
+    <div class="content">
+        <div id="home" class="home">
+            <h1>Jordy Klouwens</h1>
+            <p class="ondertitel">Web designer en illustartor</p>
+            <img src="IMG_3032.jpg" class="foto">
+        </div>
+        <div id="over-mij" class="space">
+            <h2>Over mij</h2>
+            <hr>
+            <p>Mijn naam is Jordy Klouwens en ik ben negentien jaar. Ik studeer nu op het Techniek College Rotterdam. Ik
+                volg de opleiding applicatie en media-ontwikkelaar. In mijn vrije tijd houd ik me bezig met designen van
+                websites, tekenen, photoshoppen en illustrator.</p>
+            <h3>Vaardigheden</h3>
+            <p>Photoshop</p>
+            <div class="progress">
+                <div class="photoshop-progress"></div>
+            </div>
+            <p>Illustrator</p>
+            <div class="progress">
+                <div class="illustrator-progress"></div>
+            </div>
+            <p>HTML</p>
+            <div class="progress">
+                <div class="html-progress"></div>
+            </div>
+            <p>Javascript</p>
+            <div class="progress">
+                <div class="javascript-progress"></div>
+            </div>
+            <h3>Curriculum vitae</h3>
+            <button class="cv">
+                <i class="fas fa-download"></i> <a href="Jordy_Klouwens_cv.pdf" download>Download CV</a>
+            </button>
+            <div id="ontwerpen" class="space">
+                <h2>Ontwerpen</h2>
+                <hr>
+                <div class="ontwerpen">
+                    <div class="links">
+                        <img src="no_1_Tekengebied-1.jpg" alt="jpg">
+                    </div>
+                    <div class="rechts">
+                        <img src="logo_gin.jpg" alt="jpg">
+                        <img src="tiger.jpg" alt="jpg">
+                    </div>
+                </div>
+            </div>
+            <div id="contact">
+                <h2>Contact</h2>
+                <hr>
+                <div class="contact">
+                    <ul class="lijst">
+                        <li><i class="fas fa-map-marker-alt contact_icon"></i>
+                            <p class="test">Poortugaal, NL</p></li>
+                        <li><i class="fas fa-mobile contact_icon"></i>
+                            <p class="test">Telefoon nr: 0628711921</p></li>
+                        <li><i class="fas fa-envelope contact_icon"></i>
+                            <p class="test">Email: J.klouwens4@gmail.com</p></li>
+                    </ul>
+                </div>
+                <p>Hier kunt u mij snel een mailtje sturen</p>
+                <form method="post">
+                    <label for="naam"></label>
+                    <input type="text" id="naam" placeholder="Naam" required>
+                    <label for="email"></label>
+                    <input type="email" id="email" placeholder="Email" required>
+                    <label for="onderwerp"></label>
+                    <input type="text" id="onderwerp" placeholder="Onderwerp" required>
+                    <label for="bericht"></label>
+                    <input type="text" id="bericht" placeholder="Bericht" required>
+                    <button type="submit"><i class="fab fa-telegram-plane"></i>VERSTUUR</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
