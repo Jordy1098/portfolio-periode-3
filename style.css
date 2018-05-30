@@ -16,7 +16,7 @@ body {
 }
 
 .nav {
-    display: block;
+    width: 9%;
 
 }
 
@@ -58,7 +58,7 @@ h1 {
     padding: 5% 0 3% 0;
 }
 
-a {
+.nav nav a {
     text-decoration: none;
     height: 15%;
     max-width: 100%;
@@ -228,7 +228,6 @@ hr{
 }
 
 h2{
-    margin-top: 20%;
     font-size: 1.9rem;
 }
 
@@ -292,4 +291,8 @@ h2{
         margin-right: 10%;
     }
 
+}
+
+.between{
+    padding-top: 10%;
 }

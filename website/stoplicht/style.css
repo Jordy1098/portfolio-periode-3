@@ -1,0 +1,63 @@
+/*rechtsonder*/
+.stoplicht {
+    width: 40px;
+    height: 80px;
+    position: absolute;
+    top: 510px;
+    left: 720px;
+}
+/*linksboven*/
+.stoplicht2 {
+    width: 40px;
+    height: 80px;
+    position: absolute;
+    top: 280px;
+    left: 490px;
+}
+/*rechtsboven*/
+.stoplicht4 {
+    width: 80px;
+    height: 40px;
+    position: absolute;
+    top: 320px;
+    left: 720px;
+}
+/*linksonder*/
+.stoplicht3 {
+    width: 80px;
+    height: 40px;
+    position: absolute;
+    top: 510px;
+    left: 450px;
+}
+
+.auto {
+    width: 40px;
+    height: 80px;
+    position: absolute;
+    left: 650px;
+    top: 800px;
+}
+
+.auto2 {
+    width: 80px;
+    height: 40px;
+    position: absolute;
+    left: 1440px;
+    top: 380px;
+}
+
+.auto3 {
+    height: 80px;
+    width: 40px;
+    position: absolute;
+    bottom: 800px;
+    left: 550px;
+}
+
+.auto4 {
+    width: 80px;
+    position: absolute;
+    right: 1440px;
+    top: 420px;
+}

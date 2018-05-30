@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Stoplicht</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body background="verkeer/kruising.png">
+<form>
+    <h1>Stoplichten</h1>
+    <img src="verkeer/stoplichtuit.png" id="stoplicht" class="stoplicht">
+    <img src="verkeer/stoplichtuit2.png" id="stoplicht2" class="stoplicht2">
+    <img src="verkeer/stoplichtuit3.png" id="stoplicht3" class="stoplicht3">
+    <img src="verkeer/stoplichtuit4.png" id="stoplicht4" class="stoplicht4">
+    <input type="button" value="aanzetten" onclick="aanzetten()">
+    <input type="button" value="knipperen" onclick="knipperen()">
+    <input type="button" value="uitzetten" onclick="uitzetten()">
+</form>
+<form>
+    <h1>auto</h1>
+    <img src="verkeer/autogroen.png" id="auto" class="auto">
+    <img src="verkeer/autoblauw.png" id="auto2" class="auto2">
+    <img src="verkeer/autorood3.png" id="auto3" class="auto3">
+    <img src="verkeer/brandweer.png" id="auto4" class="auto4">
+    <input type="button" value="start" onclick="starten()">
+    <input type="button" value="stop" onclick="stop()">
+    <input type="button" value="opnieuw" onclick="opnieuw()">
+</form>
+
+<script src="verkeer.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,16 @@
+.spelletje {
+    text-align: center;
+}
+
+.resultaat {
+    padding: 10%;
+}
+
+.score {
+    padding: 10%;
+    justify-content: space-between;
+}
+
+.spelerpunten {
+    padding-right: 20px;
+}
